@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "config-module"
+version = "0.1.4"
+description = ""
+authors = ["parkyoungjin-888 <pyj8813@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+grpcio = "^1.64.1"
+grpcio-tools = "^1.64.1"
+protobuf = "^5.27.1"
+pymongo = "^4.7.3"
+utils_module = { git = "https://github.com/parkyoungjin-888/utils_module.git" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
