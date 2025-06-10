@@ -1,0 +1,1 @@
+from app_init import init_config_and_logger
